@@ -165,6 +165,8 @@
 /* Base value for encoder configuration ioctls*/
 #define VEN_IOCTLBASE_ENC	0x850
 
+#define VEN_IOCTL_SET_SLICE_DELIVERY_MODE _IO(VEN_IOCTLBASE_ENC, 50)
+
 struct venc_ioctl_msg{
 	void __user *in;
 	void __user *out;
