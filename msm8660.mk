@@ -66,6 +66,10 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libaudioutils
 
+# CMAccount
+PRODUCT_PACKAGES += \
+    CMAccount
+
 # GalaxyS2Settings
 PRODUCT_PACKAGES += \
      GalaxyS2Settings \
